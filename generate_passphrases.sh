@@ -140,4 +140,5 @@ for ((i=1; i<=$COUNT; i++)); do
     fi
   done
   printf "%2d. %s\n" $i "${PASSPHRASES[$random_index]}"
+  echo
 done
